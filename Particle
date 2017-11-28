@@ -1,0 +1,26 @@
+//Particle v.1. 11/28/17
+//Carolyn Shimabukuro
+//Web exercise 6. Particle: Create a data type for elementary or composite particles
+public class Program32DataType{
+  private String name; // type of particle
+  private double mass; // particle mass
+  private int charge; // particle charge
+  private double spin; //  spin of multiplicity 1/2
+  
+  public Particle(String n, double m, int c, double s){
+    name = n;
+    mass = m;
+    charge = c;
+    spin = s;
+  }
+
+  public String toString(){
+    return name + " of " + mass + "mass, " + charge + " charge, and " + spin + " spin.";
+  }
+  
+  public boolean equals(Object 
+  
+  public static void main(String[] args){
+    Particle p0 = new particle(
+    System.out.println(p0.toString());
+  }
